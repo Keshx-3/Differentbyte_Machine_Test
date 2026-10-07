@@ -18,6 +18,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_groq import ChatGroq
 
+# LLM setup
 def get_llm():
     api_key = os.getenv("GROQ_API_KEY")
     return ChatGroq(model = "openai/gpt-oss-20b", api_key=api_key, temperature=0)

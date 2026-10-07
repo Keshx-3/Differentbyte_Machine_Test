@@ -2,15 +2,13 @@ import os
 import sys
 from dotenv import load_dotenv
 
-# Ensure UTF-8 output on Windows console
 if sys.stdout and hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-# Load environment variables from .env
 load_dotenv()
 os.environ.setdefault("USER_AGENT", "RAG-App/1.0")
 
-# --- LangChain RAG Pipeline ---
+#LangChain RAG Pipeline
 from langchain_community.document_loaders import PyPDFLoader, TextLoader, WebBaseLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings

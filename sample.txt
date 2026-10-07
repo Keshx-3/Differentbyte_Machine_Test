@@ -1,0 +1,24 @@
+# TechCorp Employee Handbook & Engineering Guidelines (2026)
+
+## 1. Company Overview
+TechCorp is a leading technology company specializing in artificial intelligence and autonomous developer tooling. Our flagship product is Project Antigravity, an advanced agentic AI coding assistant developed in partnership with Google DeepMind.
+
+## 2. Work Policy & Office Hours
+- Standard business hours are 9:00 AM to 5:00 PM EST, Monday through Friday.
+- Remote Work: Employees are permitted up to 3 remote working days per week upon manager approval.
+- Core Collaboration Hours: All team members must be online and reachable between 11:00 AM and 3:00 PM EST.
+
+## 3. Financial Benefits & Allowances
+- Learning & Development: Full-time engineers receive an annual education stipend of $2,500 for books, courses, and certifications.
+- Wellness Reimbursement: Employees can claim up to $75 per month for gym memberships or fitness activities.
+- Home Office Setup: New hires receive a one-time equipment grant of $1,000 for ergonomic desks, chairs, and monitors.
+
+## 4. Key Contacts
+- HR & Benefits Support: Sarah Jenkins (sarah.jenkins@techcorp.internal)
+- Cloud Infrastructure & Security: Alex Rivera (alex.rivera@techcorp.internal)
+- Engineering Director: Dr. Maya Patel (maya.patel@techcorp.internal)
+
+## 5. Security & Data Protection Rules
+- All production code must be reviewed by at least two senior engineers before merging.
+- API keys, credentials, and customer data must never be committed to Git repositories.
+- Production database access requires multi-factor authentication (MFA) and temporary token generation.
